@@ -1,0 +1,16 @@
+header h1 {
+   text-align:center;
+}
+.hobbies, .favorite-languages {
+   background-color: green;
+   color:#f4f4f4;
+}
+.favorite-languages {
+   font-family: Arial, Helvetica, sans-serif;
+}
+.cyan {
+   color: cyan;
+}
+.cross-off {
+   text-decoration-line: line-through;
+}

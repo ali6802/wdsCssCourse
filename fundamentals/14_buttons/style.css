@@ -1,0 +1,64 @@
+* {
+   box-sizing:border-box;
+}
+html {
+   font-size: 62.5%;
+}
+:root {
+   --primary-font:1.6rem;
+}
+.btn {
+   background-color: hsl(0, 0%, 90%);
+   border: 0.1rem solid hsl(0, 0%, 70%);
+   outline: none;
+   cursor: pointer;
+   padding: .5em 1em;
+   border-radius: .25rem;
+}
+.btn-primary {
+   background-color: hsl(270, 100%, 50%);
+   border-color: hsl(270, 70%, 30%);
+   color: white;
+}
+.btn-accent {
+   background-color:hsl(200,100%,50%);
+   border-color:hsl(200,100%,30%);
+   color:white;
+}
+.btn-danger {
+   background-color: hsl(0,70%,50%);
+   border-color: hsl(0,70%,30%);
+   color:white;
+}
+.btn-large {
+   font-size: 1.8rem;
+}
+.btn-small {
+   font-size: 1rem;
+}
+.btn-pill {
+   border-radius:1000rem;
+}
+.btn-custom {
+   background: linear-gradient(to right, green,yellow);
+   color:whire;
+   border-color: darkgreen;
+}
+.btn:hover, .btn-focus {
+   background-color: hsl(0,0%,80%);   
+}
+.btn-primary:hover, .btn-primary:focus {
+   background-color: hsl(270,100%,30%);
+   box-shadow: 0 0 0.5rem hsl(270,100%,20%);
+   color:white;   
+}
+.btn-accent:hover, .btn-accent:focus {
+   background-color:hsl(200,100%,30%);
+   box-shadow: 0 0 0.5rem hsl(200,100%,30%);
+}
+.btn-danger:hover, .btn-danger:focus {
+   background-color: hsl(0,70%,30%);
+   box-shadow: 0 0 0.5rem hsl(0,70%,30%);
+
+}
+
