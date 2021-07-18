@@ -1,0 +1,164 @@
+/*
+* {
+   box-sizing:border-box;
+}
+html {
+   font-size: 100%;
+}
+.grid-container {
+   display:grid;
+   margin:0;
+   grid-template-columns: 1fr 150px;
+   grid-template-rows: auto auto 1fr auto;
+   grid-template-areas:
+   "header header"
+   "nav sidebar"
+   "content sidebar"
+   "footer footer";
+}
+.header {
+   grid-area: header;
+   font-size: 1.5rem;
+   background-color: green;
+   padding: 1rem;
+   color:white;
+   text-align: center;
+}
+.nav {
+   grid-area: nav;
+   background-color: green;   
+}
+
+.nav-list li {
+   padding:.5rem;
+   list-style: none;
+   color:white;
+}
+*/
+* {
+   box-sizing:border-box;
+}
+html {
+   font-size: 100%;
+}
+.grid-container {
+   min-height: 100vh;
+   margin:0;
+   display: grid;
+   grid-template-columns: 1fr 150px;
+   grid-template-rows: auto auto 1fr auto;
+   grid-template-areas: 
+   "header header"
+   "nav sidebar"
+   "content sidebar"
+   "footer footer";
+
+}
+.header {
+   grid-area: header;
+   font-size: 1.5rem;
+   background-color: green;
+   color: white;
+   text-align: center;
+   padding:1rem;
+}
+.nav {
+   grid-area: nav;
+   background: green;
+   color:yellow;
+   border-top: 1px solid #024;
+   padding:1rem;
+}
+.nav-list {
+   display:flex;
+   justify-content: center;
+   list-style: none;
+   
+
+}
+.nav-list li {
+   
+   padding:.5rem;
+}
+.sidebar {
+   grid-area:sidebar;
+   padding:.5rem;
+   background-color:blue;
+   color:white;
+}
+.content {
+   grid-area:content;
+   padding:1rem;
+   
+}
+.footer {
+   grid-area:footer;
+   background-color: green;
+   padding:1rem;
+   text-align: center;
+   color:white;
+}
+
+/*
+* {
+   box-sizing:border-box;
+}
+html {
+   font-size: 100%;
+}
+.grid-container {
+   min-height: 100vh;
+   margin:0;
+   display: grid;
+   grid-template-columns: 1fr 150px;
+   grid-template-rows: auto auto 1fr auto;
+   grid-template-areas: 
+   "header header"
+   "nav sidebar"
+   "content sidebar"
+   "footer footer";
+
+}
+.header {
+   grid-area: header;
+   font-size: 1.5rem;
+   background-color: green;
+   color: white;
+   text-align: center;
+   padding:1rem;
+}
+.nav {
+   grid-area: nav;
+   background: green;
+   color:yellow;
+   border-top: 1px solid #024;
+   padding:1rem;
+}
+.nav-list {
+   display:flex;
+   justify-content: center;
+   margin:0;
+   padding:0;
+   list-style: none;
+}
+.nav-list li {
+   padding: .5rem;
+}
+.sidebar {
+   grid-area: sidebar;
+   background-color: #024;
+   color:white;
+   padding:.5rem;
+}
+.content {
+   grid-area:content;
+   margin: 1rem;
+}
+.footer {
+   grid-area:footer;
+   background-color: green;
+   color: white;
+   text-align: center;
+   padding:.5rem;
+}
+*/
